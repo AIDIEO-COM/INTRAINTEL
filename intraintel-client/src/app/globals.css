@@ -28,3 +28,13 @@
   background: #0EC4FF;
   filter: blur(250px);
 }
+
+.home-banner {
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .home-banner {
+    height: calc(100vh - 130px);
+  }
+}
