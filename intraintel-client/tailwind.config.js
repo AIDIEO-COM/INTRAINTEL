@@ -13,6 +13,13 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      'manrope': ['Manrope', 'sans-serif'],
+      'monoton': ['Monoton', 'sans-serif'],
+      'roboto': ['Roboto', 'sans-serif'],
+      'mulish': ['Mulish', 'sans-serif'],
+      'body': ['"Open Sans"'],
+    }
   },
   plugins: [],
 }
