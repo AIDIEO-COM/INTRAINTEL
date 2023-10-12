@@ -1,10 +1,12 @@
+import Navbar from '@/components/globals/navbar/Navbar';
 import React from 'react';
 
 const HomeLayout = ({children}) => {
     return (
-        <>
+        <div>
+            <Navbar/>
             {children}
-        </>
+        </div>
     );
 };
 

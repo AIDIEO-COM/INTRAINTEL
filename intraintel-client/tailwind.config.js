@@ -18,7 +18,12 @@ module.exports = {
       'monoton': ['Monoton', 'sans-serif'],
       'roboto': ['Roboto', 'sans-serif'],
       'mulish': ['Mulish', 'sans-serif'],
-      'body': ['"Open Sans"'],
+    },
+    colors: {
+      primary: '#AC2DE8',
+      secondary: '#020654',
+      white: '#FFFFFF',
+      black: '#000000',
     }
   },
   plugins: [],
