@@ -1,9 +1,10 @@
+import Banner from '@/components/pages/home/banner/Banner';
 import React from 'react';
 
 const HomePage = () => {
     return (
-        <div className='text-2xl '>
-            <p className='font-mulish'>This is the home </p>
+        <div className='w-full '>
+            <Banner/>
         </div>
     );
 };

@@ -8,7 +8,9 @@ import ToggleBtn from "./ToggleBtn";
 const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
-    <div className="max-w-[1720px] mx-auto px-1  sm:px-3 md:px-6 lg:px-7">
+    <div className="max-w-[1720px] mx-auto px-1  sm:px-3 md:px-6 lg:px-7 relative">
+      {/* gradient container */}
+      <div className="gradient-banner w-[264px] h-[264px] absolute md:left-14 md:mt-20 "></div>
       <div className="w-full h-fit py-3 md:py-[22px] flex items-center justify-between">
         {/* logo */}
         <div className="flex items-center gap-0 sm:gap-1 xl:gap-2">

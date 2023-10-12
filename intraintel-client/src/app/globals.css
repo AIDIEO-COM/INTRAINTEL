@@ -19,6 +19,12 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-.max-width{
+.max-width {
   @apply max-w-[1480px] mx-auto sm:px-3 md:px-6 lg:px-7 xl:px-10;
+}
+
+.gradient-banner {
+  border-radius: 264.521px;
+  background: #0EC4FF;
+  filter: blur(250px);
 }
