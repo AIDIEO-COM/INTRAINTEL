@@ -3,7 +3,7 @@ import React from "react";
 
 const FeatureCard = ({logo, title, description}) => {
   return (
-    <div className="w-full px-5 lg:px-8 py-4 lg:py-5 feature-card h-full min-w-[390px] min-h-[254px]">
+    <div className="w-full px-5 lg:px-8 py-4 lg:py-5 feature-card h-full max-w-[430px] min-h-[254px]">
       <div className="w-full flex items-center gap-5">
         <Image
           src={logo}

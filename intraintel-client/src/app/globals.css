@@ -20,11 +20,11 @@
 }
 
 .max-width {
-  @apply max-w-[1480px] mx-auto sm:px-3 md:px-6 lg:px-7 xl:px-10;
+  @apply max-w-[1480px] mx-auto px-3 md:px-6 lg:px-7 xl:px-10;
 }
 
 .section-gap {
-  @apply my-12 md:my-20;
+  @apply my-12 md:my-20 xl:my-24;
 }
 
 .gradient-banner {
