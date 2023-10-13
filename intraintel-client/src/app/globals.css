@@ -38,3 +38,9 @@
     height: calc(100vh - 130px);
   }
 }
+
+.banner-bottom-gradient {
+  border-radius: 311.368px;
+  background: #8200D2;
+  filter: blur(250px);
+}

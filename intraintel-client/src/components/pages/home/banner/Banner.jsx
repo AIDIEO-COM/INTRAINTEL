@@ -46,6 +46,8 @@ const Banner = () => {
         height={1080}
         className="w-auto h-[200px] sm:h-[300px] md:h-full absolute right-0 z-[9] mb-12 md:mb-0 mt-12"
       ></Image>
+      {/* gradient container */}
+      <div className="banner-bottom-gradient w-[301px] h-[311px] absolute -bottom-10 right-0 "></div>
     </div>
   );
 };
