@@ -4,9 +4,11 @@ import ClientSayCard from "./ClientSayCard";
 
 const ClientSay = () => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative px-2 ">
+        {/* gradient container */}
+        <div className="w-[405px] h-[374px] md:w-[667px] md:h-[644px] bg-primary absolute top-0 right-0 rounded-[667px] translate-x-1/2 -translate-y-1/2" style={{background: "radial-gradient(40.17% 39.79% at 50% 50%, rgba(74, 148, 226, 0.62) 0%, rgba(48, 115, 175, 0.00) 100%)"}}></div>
       <div
-        className="max-width section-gap h-full lg:h-[361px] "
+        className="max-width section-gap h-full lg:h-[361px]"
         style={{
           borderRadius: "7.35px",
           border: "1.069px solid rgba(185, 54, 245, 0.25)",
@@ -26,11 +28,26 @@ const ClientSay = () => {
         </p>
         {/* feedback cards container */}
         <div className="w-full h-fit overflow-x-auto pb-7">
-        <div className="w-fit xl:w-full  h-fit px-5 xl:px-8 flex xl:grid grid-cols-3 gap-5 mt-[48px] justify-items-center">
-            <ClientSayCard profile={"/images/profile1.svg"} title={"“ Lorem ipsum dolor sit amet, “ "} name={"Denny Hilguston"} email={"@denny.hill"}></ClientSayCard>
-            <ClientSayCard profile={"/images/profile2.svg"} title={"“ Lorem ipsum dolor sit amet, “ "} name={"Vani Pandey"} email={"@vani.pandey"}></ClientSayCard>
-            <ClientSayCard profile={"/images/profile3.svg"} title={"“ Lorem ipsum dolor sit amet, “ "} name={"milly Singh"} email={"@milly.singh"}></ClientSayCard>
-        </div>
+          <div className="w-fit xl:w-full  h-fit px-5 xl:px-8 flex xl:grid grid-cols-3 gap-5 mt-[48px] justify-items-center">
+            <ClientSayCard
+              profile={"/images/profile1.svg"}
+              title={"“ Lorem ipsum dolor sit amet, “ "}
+              name={"Denny Hilguston"}
+              email={"@denny.hill"}
+            ></ClientSayCard>
+            <ClientSayCard
+              profile={"/images/profile2.svg"}
+              title={"“ Lorem ipsum dolor sit amet, “ "}
+              name={"Vani Pandey"}
+              email={"@vani.pandey"}
+            ></ClientSayCard>
+            <ClientSayCard
+              profile={"/images/profile3.svg"}
+              title={"“ Lorem ipsum dolor sit amet, “ "}
+              name={"milly Singh"}
+              email={"@milly.singh"}
+            ></ClientSayCard>
+          </div>
         </div>
       </div>
     </div>
