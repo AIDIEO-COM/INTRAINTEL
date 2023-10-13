@@ -18,6 +18,7 @@ module.exports = {
       'monoton': ['Monoton', 'sans-serif'],
       'roboto': ['Roboto', 'sans-serif'],
       'mulish': ['Mulish', 'sans-serif'],
+      'orbitron': ['Orbitron', 'sans-serif'],
     },
     colors: {
       primary: '#AC2DE8',

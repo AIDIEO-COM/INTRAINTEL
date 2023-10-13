@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="w-full  relative home-banner"
+      className="w-full  relative home-banner overflow-hidden "
     >
       <div
         className="absolute top-0 left-0 right-0 bottom-0 h-full w-full z-[11] "
@@ -37,15 +37,17 @@ const Banner = () => {
         alt="home banner 1"
         width={2120}
         height={1080}
-        className="w-auto h-[200px] sm:h-[300px] md:h-[70%] absolute right-0  md:top-1/2 md:-translate-y-1/2 z-[10] mb-12 md:mb-0 mt-12"
+        className="w-auto h-[200px] sm:h-[300px] bottom-0 md:h-[70%] absolute right-0  md:top-1/2 md:-translate-y-1/2 z-[10] mb-12 md:mb-0 mt-12"
       ></Image>
       <Image
         src={"/banners/home-banner2.png"}
         alt="home banner 1"
         width={2120}
         height={1080}
-        className="w-auto h-[200px] sm:h-[300px] md:h-full absolute right-0 z-[9] mb-12 md:mb-0 mt-12"
+        className="w-auto h-[200px] sm:h-[300px] md:h-[90%] absolute bottom-0 right-0 z-[9] mb-12 md:mb-0 mt-12"
       ></Image>
+      {/* gradient container */}
+      <div className="banner-bottom-gradient w-[100px] h-[100px] md:w-[301px] md:h-[311px] absolute bottom-0 md:-bottom-10 right-0 "></div>
     </div>
   );
 };
