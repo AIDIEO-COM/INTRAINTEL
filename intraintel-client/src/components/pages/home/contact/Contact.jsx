@@ -4,6 +4,15 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="w-full h-fit relative">
+      {/* gradient container */}
+      <div
+        className="w-[667px] h-[644px] hidden lg:inline-block absolute right-0 bottom-0 bg-primary translate-x-1/2 translate-y-1/4"
+        style={{
+          borderRadius: "667.974px",
+          background:
+            "radial-gradient(40.17% 39.79% at 50% 50%, rgba(74, 148, 226, 0.62) 0%, rgba(48, 115, 175, 0.00) 100%)",
+        }}
+      ></div>
       <div className="max-width section-gap">
         <SectionTitle>Contact Us</SectionTitle>
         <div className="w-full h-full grid lg:grid-cols-2 gap-[60px]">
@@ -53,7 +62,11 @@ const Contact = () => {
             </form>
           </div>
           <div className="w-full h-full lg:flex flex-col justify-around text-3xl font-mulish text-white hidden ">
-            <p className="max-w-[570px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.</p>
+            <p className="max-w-[570px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              consectetur adipiscing elit. consectetur adipiscing elit.
+              consectetur adipiscing elit.
+            </p>
             <p>Lorem ipsum dolor sit amet, </p>
           </div>
         </div>
